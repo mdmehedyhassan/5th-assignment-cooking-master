@@ -3,7 +3,7 @@ body{
 }
 
 /*********** Home meal div **************/
-.male-item-style{
+.meal-item-style{
     background-color: #182c33;
     color: #fff;
     padding: 15px;
@@ -11,7 +11,7 @@ body{
     margin-bottom:20px;
     border-radius: 15px;
 }
-.male-item-style:hover{
+.meal-item-style:hover{
     box-shadow: 10px 10px 30px rgb(1, 2, 22);
     zoom: 1.3;
 }
@@ -21,4 +21,11 @@ body{
 }
 .image-div img:hover{
     zoom: initial;
+}
+
+#meal-details{
+    background-color: #182c33;
+    color: #fff;
+    border-radius: 25px;
+    margin: 20px 0;
 }
