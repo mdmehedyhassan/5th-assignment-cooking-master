@@ -3,7 +3,7 @@
 ## Live site preview
 [live link](https://mdmehedyhassan.github.io/5th-assignment-cooking-master/)
 
-## Future
+## Feature
 1. You can search any meals.
 2. You can say details any meals.
 3. You can say how to cooking this recipes.
