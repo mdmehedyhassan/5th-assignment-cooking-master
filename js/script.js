@@ -1,3 +1,13 @@
+const autoCall = () => {
+    fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=chicken`)
+            .then(response => response.json())
+            .then(data => searchmeal(data.meals))
+            .catch(error => {
+                document.getElementById('meal-item-notMatch').innerHTML = `<h1 class="text-danger text-center">Sorry!!! <span class="text-info">${searchInput}</span> this meal does not match. Please search again.</h1>`;
+            })
+}
+autoCall();
+
 function searchButtonHandler() {
     document.getElementById('meal-item-notSetup').innerHTML = null;
     document.getElementById('meal-item-notMatch').innerHTML = null;
